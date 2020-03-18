@@ -1,8 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .headerBar {
+    display: inline-block;
     width: 100%;
+    background-color: rgb(196, 196, 196);
     text-align: center;
+    height: 12vh;
 }
 
 .headerName {
-
+    font-size: 40px;
+    color: rgb(45, 45, 241);
 }
