@@ -6,12 +6,13 @@ body {
 .headerBar {
     display: inline-block;
     width: 100%;
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(100, 100, 253);
     text-align: center;
     height: 12vh;
 }
 
 .headerName {
     font-size: 40px;
-    color: rgb(45, 45, 241);
+    color: rgb(209, 209, 209);
 }
+
