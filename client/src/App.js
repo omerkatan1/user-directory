@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import header from './components/header/header';
 import NavBody from './components/navBody/navBody';
+import newDepartmentBody from './components/newDepartmentBody/newDepartmentBody';
 
 
 // displays the components
@@ -15,6 +16,7 @@ const App = () => (
     <Route path="/" exact component={NavBody} />
 
     <Route path="/newDepartment" exact component={header} />
+    <Route path="/newDepartment" exact component={newDepartmentBody} />
     <Route path="/newEmployee" exact component={header} />
     <Route path="/veiwEmployees" exact component={header} />
 
