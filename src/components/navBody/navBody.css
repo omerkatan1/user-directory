@@ -5,15 +5,11 @@
 }
 
 .btn {
-    position: relative;
     margin-right: 10vw;
     margin-left: 10vw;
     margin-top: 30vh;
     width: 125px;
     height: 62.5px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(218, 218, 218);
 }
 .btn:hover {
     width: 130px;
