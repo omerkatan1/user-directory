@@ -12,6 +12,5 @@
     height: 62.5px;
 }
 .btn:hover {
-    width: 130px;
     cursor: pointer;
 }
