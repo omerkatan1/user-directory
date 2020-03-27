@@ -1,5 +1,5 @@
 import React from 'react';
-const mongoose = require('mongoose');
+
 // import axios from 'axios';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -10,11 +10,13 @@ import newDepartmentBody from './components/newDepartmentBody/newDepartmentBody'
 import newEmployee from './components/newEmployeeBody/newEmployeeBody';
 import veiwEmployees from './components/viewEmployeeBody/viewEmployee';
 
+// const mongoose = require('mongoose');
 
-mongoose.connect("mongodb://employeeDB:password1@ds121415.mlab.com:21415/heroku_kj7qtdb2", { useNewUrlParser: true }).then(function(err) {
-  if(err) throw err;
-  console.log("mongoDB connected");
-})
+
+// mongoose.connect("mongodb://employeeDB:password1@ds121415.mlab.com:21415/heroku_kj7qtdb2", { useNewUrlParser: true }).then(function(err) {
+//   if(err) throw err;
+//   console.log("mongoDB connected");
+// })
 
 
 
